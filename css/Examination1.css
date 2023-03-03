@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@300&family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1600px;
+    background: white;
+}
+
+.header-cont{
+    background: rgba(242, 206, 218, 0.3);
+    padding-left: 245px;
+}
+.nav{
+    width: 1125px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    width: 393px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header-item a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #150101;
+    
+}
+.btn{
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    
+    
+    color: #FAFAFA;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    
+    color: #0F0101;
+}
+#h1{
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    opacity: 0.9;
+    
+    color: #0F0101;
+}
+.ice{
+    color:rgba(210, 49, 102, 1);
+}
+#hero-p{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    
+    
+    color: #0F0101;
+    
+    opacity: 0.6;
+}
+.advantage{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.advan-list{
+    width: 1117px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.advan{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    box-shadow: #3f3f3f27 1px 1px 1px 1px;
+}
+#h2{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    
+    
+    color: #000000;
+}
+#advan-p{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    
+    color: #000000;
+    
+    opacity: 0.6;
+}
+
+.ice-cream{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F8EDF0;
+    
+}
+#h3{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    
+    color: #150101;
+}
+.our-product{
+    text-align: center;
+    
+}
+.our-list{
+    width: 1100px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.our-item{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    
+    
+    
+    color: #000000;
+    
+    opacity: 0.6;
+}
+.popcorn{
+    width: 1149px;
+    height: 415px;
+    margin-left: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#h4{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 11.4px;
+   
+    
+    
+    color: #000000;
+}
+#u{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    
+    color: #000000;
+}
+#del{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    
+    color: #000000;
+    
+    opacity: 0.7;
+}
+.popcorn:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.icon{
+    display: flex;
+}
+#woman-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+.wtf{
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.main-end{
+    height: 678px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #F8EDF0;
+}
+#phone-img{
+    position: relative;
+    top: 100px;
+}
+#end-h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    
+    
+    color: #000000;
+}
+#end-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    
+    color: #0F0101;
+    
+    opacity: 0.7;
+}
+.end-list{
+    list-style: none;
+}
+.end-item{
+    width: 206px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.end-item-img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+#end-item-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    
+    
+    
+    color: #000000;
+}
+.end-img-list{
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.form{
+    height: 565px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.forms{
+    width: 647px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-item{
+    width: 638px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#pair{
+    width: 303px;
+    height: 74px;
+    border-radius: 10px;
+    padding-left: 25px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: #0F0000;
+}
+#alone{
+    height: 74px;
+    border-radius: 5px;
+    flex-grow: 5;
+    padding-left: 25px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    
+        color: #0F0000;
+}
+.Send{
+    width: 134px;
+    height: 74px;
+}
+.the-end{
+    height: 381px;
+    padding-top: 70px;
+    background: #0A0808;
+}
+.the-last-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.the-last-p{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+    
+        color: #FFFFFF;
+    
+        opacity: 0.7;
+}
+#flv{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+ 
+   
+    
+        color: #FFFFFF;
+}
+#home{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    
+    
+        color: #FFFFFF;
+}
+#tired{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    
+    
+        color: #FFFFFF;
+    
+        opacity: 0.7;
+}
+#tired1{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px ;
+    
+    
+        color: #FFFFFF;
+    
+        opacity: 0.8;
+}
+.h5{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+    
+    
+        color: #FFFFFF;
+}
+#email{
+    width: 200px;
+    height: 55px;
+}
+.subs{
+    width: 125px;
+    height:55px;
+}
+
